@@ -1,0 +1,88 @@
+:root {
+  --main-color: #f472b6;
+  --waves-color: #fce7f3;
+}
+
+nav.navbar {
+  background-color: var(--main-color);
+}
+
+nav .navbar-brand {
+  font-family: "Pacifico", cursive;
+  letter-spacing: 0.25rem;
+  font-style: italic;
+}
+
+#home,
+#projects {
+  background-color: var(--waves-color);
+  padding-top: 5rem;
+}
+
+#home h1 {
+  color: var(--main-color);
+  font-weight: 800;
+}
+
+#home .img-wrapper {
+  max-width: 200px;
+  width: 100%;
+}
+
+#home .bg-blob {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(0deg);
+}
+
+#about {
+  padding-top: 8rem;
+}
+
+#about h2,
+#projects h2,
+#contact h2 {
+  color: var(--main-color);
+  font-weight: 700;
+}
+
+#projects .custom-img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+}
+
+#contact {
+  padding-top: 5.5rem;
+}
+
+#contact input:focus,
+#contact textarea:focus {
+  box-shadow: 0 0 3px 3px var(--main-color);
+  border: none;
+  outline: 2px solid var(--main-color);
+  outline-offset: 2px solid;
+}
+
+footer {
+  padding-top: 1.5rem;
+  padding-bottom: 3rem;
+  background-color: var(--waves-color);
+}
+
+footer p a {
+  text-decoration: none;
+  font-weight: 600;
+  color: var(--main-color);
+  font-style: italic;
+}
+
+footer p a:hover {
+  color: #ec4899;
+}
+
+footer p a:first-child {
+  font-family: "pacifico", cursive;
+}
