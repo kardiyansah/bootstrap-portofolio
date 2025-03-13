@@ -1,4 +1,5 @@
 :root {
+  scroll-behavior: smooth;
   --main-color: #f472b6;
   --waves-color: #fce7f3;
 }
