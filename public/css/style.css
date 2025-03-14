@@ -51,7 +51,6 @@ nav .navbar-brand {
   display: block;
   width: 100%;
   aspect-ratio: 3 / 2;
-  object-fit: cover;
 }
 
 #contact {
@@ -64,6 +63,15 @@ nav .navbar-brand {
   border: none;
   outline: 2px solid var(--main-color);
   outline-offset: 2px solid;
+}
+
+#contact .custom-btn {
+  border: 1px solid var(--waves-color);
+  background-color: var(--main-color);
+}
+
+#contact .custom-btn:hover {
+  background-color: #ec4899;
 }
 
 footer {
